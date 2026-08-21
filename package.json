@@ -1,7 +1,7 @@
 {
   "name": "central-bank-of-suriname-exchange-rate",
-  "version": "1.2.6",
-  "description": "Official Central Bank of Suriname (Suriname) daily exchange rates — 11 currencies vs SRD, current table, archive from 2026. Zero-dependency Node.js/TypeScript client.",
+  "version": "1.2.7",
+  "description": "Official Central Bank of Suriname (Suriname) daily exchange rates — 11 currencies vs SRD, history since 2009. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "cbvs",
     "central",
