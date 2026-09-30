@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'SRD', { apiKey: 'art_live_...' });
 {
   bank: 'cbvs',
   name: 'Central Bank of Suriname',
-  rate_date: '2026-09-09',   // Central Bank of Suriname's own publication date
+  rate_date: '2026-09-25',   // Central Bank of Suriname's own publication date
   source: 'USD',
   target: 'SRD',
-  rate: 37.923,
+  rate: 37.91,
   rate_type: 'sell',
   derived: false,
   method: 'published',
@@ -113,10 +113,10 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'cbvs',
   name: 'Central Bank of Suriname',
-  rate_date: '2026-09-09',
+  rate_date: '2026-09-25',
   rates: [
-    { "base": "USD", "quote": "SRD", "type": "sell", "value": 37.923 },
-    { "base": "USD", "quote": "SRD", "type": "buy", "value": 37.549 },
+    { "base": "USD", "quote": "SRD", "type": "sell", "value": 37.91 },
+    { "base": "USD", "quote": "SRD", "type": "buy", "value": 37.425 },
     // … the rest of the published table (11 currencies vs SRD)
   ],
   disclaimer: '…'
@@ -156,7 +156,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'central-bank-of-suriname-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'SRD', from: '2026-01-01', to: '2026-09-09' },
+  { source: 'USD', target: 'SRD', from: '2026-01-01', to: '2026-09-25' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -169,11 +169,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'SRD',
   from: '2026-01-01',
-  to: '2026-09-09',
+  to: '2026-09-25',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-09', rate: 37.923, rate_type: 'sell', derived: false, method: 'published' },
+    { date: '2026-09-25', rate: 37.91, rate_type: 'sell', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
