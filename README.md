@@ -40,32 +40,32 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Central Bank of Suriname table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-08** by Central Bank of Suriname — 22 rates. Updated 2026-10-08.
+Published **2026-10-09** by Central Bank of Suriname — 22 rates. Updated 2026-10-09.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AWG | SRD | buy | 20.778 |
-| AWG | SRD | sell | 21.186 |
-| BBD | SRD | buy | 18.437 |
-| BBD | SRD | sell | 18.798 |
-| BRL | SRD | buy | 7.471 |
-| BRL | SRD | sell | 7.618 |
-| CNY | SRD | buy | 5.578 |
-| CNY | SRD | sell | 5.688 |
-| EUR | SRD | buy | 41.904 |
-| EUR | SRD | sell | 42.38 |
-| GBP | SRD | buy | 49.386 |
-| GBP | SRD | sell | 50.354 |
-| GYD | SRD | buy | 0.17772 |
-| GYD | SRD | sell | 0.1812 |
-| TTD | SRD | buy | 5.506 |
-| TTD | SRD | sell | 5.614 |
-| USD | SRD | buy | 37.401 |
-| USD | SRD | sell | 37.9 |
-| XCD | SRD | buy | 13.852 |
-| XCD | SRD | sell | 14.124 |
-| XCG | SRD | buy | 20.55 |
-| XCG | SRD | sell | 20.953 |
+| AWG | SRD | buy | 20.815 |
+| AWG | SRD | sell | 21.223 |
+| BBD | SRD | buy | 18.469 |
+| BBD | SRD | sell | 18.831 |
+| BRL | SRD | buy | 7.468 |
+| BRL | SRD | sell | 7.615 |
+| CNY | SRD | buy | 5.59 |
+| CNY | SRD | sell | 5.7 |
+| EUR | SRD | buy | 41.932 |
+| EUR | SRD | sell | 42.569 |
+| GBP | SRD | buy | 49.481 |
+| GBP | SRD | sell | 50.451 |
+| GYD | SRD | buy | 0.17803 |
+| GYD | SRD | sell | 0.18152 |
+| TTD | SRD | buy | 5.511 |
+| TTD | SRD | sell | 5.619 |
+| USD | SRD | buy | 37.466 |
+| USD | SRD | sell | 37.919 |
+| XCD | SRD | buy | 13.876 |
+| XCD | SRD | sell | 14.148 |
+| XCG | SRD | buy | 20.586 |
+| XCG | SRD | sell | 20.989 |
 
 Source: [Official rates published by CBVS, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbvs/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
