@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/central-bank-of-suriname-exchange-rate.svg)](https://github.com/AllRates-Today/central-bank-of-suriname-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/central-bank-of-suriname-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/SRD today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcbvs%3Fsource%3DUSD%26target%3DSRD&query=%24.rate&label=USD%2FSRD%20published%20by%20Central%20Bank%20of%20Suriname&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cbvs/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fcbvs%3Fsource%3DUSD%26target%3DSRD&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/cbvs/)
 
 **Official Central Bank of Suriname (Suriname) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Central Bank of Suriname itself prints, every business day.**
 
@@ -32,6 +34,41 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Central Bank of Suriname table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Central Bank of Suriname — 22 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AWG | SRD | buy | 20.778 |
+| AWG | SRD | sell | 21.186 |
+| BBD | SRD | buy | 18.437 |
+| BBD | SRD | sell | 18.798 |
+| BRL | SRD | buy | 7.471 |
+| BRL | SRD | sell | 7.618 |
+| CNY | SRD | buy | 5.578 |
+| CNY | SRD | sell | 5.688 |
+| EUR | SRD | buy | 41.904 |
+| EUR | SRD | sell | 42.38 |
+| GBP | SRD | buy | 49.386 |
+| GBP | SRD | sell | 50.354 |
+| GYD | SRD | buy | 0.17772 |
+| GYD | SRD | sell | 0.1812 |
+| TTD | SRD | buy | 5.506 |
+| TTD | SRD | sell | 5.614 |
+| USD | SRD | buy | 37.401 |
+| USD | SRD | sell | 37.9 |
+| XCD | SRD | buy | 13.852 |
+| XCD | SRD | sell | 14.124 |
+| XCG | SRD | buy | 20.55 |
+| XCG | SRD | sell | 20.953 |
+
+Source: [Official rates published by CBVS, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbvs/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
