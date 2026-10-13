@@ -42,32 +42,32 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-12** by Central Bank of Suriname — 22 rates. Updated 2026-10-12.
+Published **2026-10-13** by Central Bank of Suriname — 22 rates. Updated 2026-10-13.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AWG | SRD | buy | 20.791 |
-| AWG | SRD | sell | 21.199 |
-| BBD | SRD | buy | 18.449 |
-| BBD | SRD | sell | 18.81 |
-| BRL | SRD | buy | 7.477 |
-| BRL | SRD | sell | 7.624 |
-| CNY | SRD | buy | 5.592 |
-| CNY | SRD | sell | 5.702 |
-| EUR | SRD | buy | 41.945 |
-| EUR | SRD | sell | 42.79 |
-| GBP | SRD | buy | 49.476 |
-| GBP | SRD | sell | 50.446 |
-| GYD | SRD | buy | 0.17783 |
-| GYD | SRD | sell | 0.18131 |
-| TTD | SRD | buy | 5.519 |
-| TTD | SRD | sell | 5.627 |
-| USD | SRD | buy | 37.424 |
-| USD | SRD | sell | 37.91 |
-| XCD | SRD | buy | 13.861 |
-| XCD | SRD | sell | 14.132 |
-| XCG | SRD | buy | 20.563 |
-| XCG | SRD | sell | 20.966 |
+| AWG | SRD | buy | 20.775 |
+| AWG | SRD | sell | 21.182 |
+| BBD | SRD | buy | 18.434 |
+| BBD | SRD | sell | 18.796 |
+| BRL | SRD | buy | 7.491 |
+| BRL | SRD | sell | 7.637 |
+| CNY | SRD | buy | 5.587 |
+| CNY | SRD | sell | 5.697 |
+| EUR | SRD | buy | 41.793 |
+| EUR | SRD | sell | 42.584 |
+| GBP | SRD | buy | 49.494 |
+| GBP | SRD | sell | 50.464 |
+| GYD | SRD | buy | 0.17769 |
+| GYD | SRD | sell | 0.18117 |
+| TTD | SRD | buy | 5.5 |
+| TTD | SRD | sell | 5.608 |
+| USD | SRD | buy | 37.395 |
+| USD | SRD | sell | 37.9 |
+| XCD | SRD | buy | 13.85 |
+| XCD | SRD | sell | 14.122 |
+| XCG | SRD | buy | 20.547 |
+| XCG | SRD | sell | 20.95 |
 
 Source: [Official rates published by CBVS, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbvs/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
