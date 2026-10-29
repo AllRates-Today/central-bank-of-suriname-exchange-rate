@@ -47,7 +47,7 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-13 by Central Bank of Suriname (the API currently flags this table as stale) — 22 rates. Updated 2026-10-27.</summary>
+<summary>Table as text: published 2026-10-13 by Central Bank of Suriname (the API currently flags this table as stale) — 22 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
